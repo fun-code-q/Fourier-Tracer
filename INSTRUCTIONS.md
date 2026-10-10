@@ -330,7 +330,7 @@ Frequency of index j: `fk(j, M) = j < M/2 ? j : j − M`.
 | Format | Detection |
 |---|---|
 | GeoGebra | `Curve(x, y, t, a, b)` (comment lines ignored) |
-| Mathematica | `ParametricPlot[{{x1, y1}, …}, {t, a, b}]`, `RGBColor[r, g, b]` colours |
+| Mathematica | `ParametricPlot[{ {x1, y1}, …}, {t, a, b}]`, `RGBColor[r, g, b]` colours |
 | App / generic | `x(t) = …` followed by `y(t) = …`; `# outline N colour #rrggbb`, `# t from a to b` comments |
 | Desmos | `\left(x, y\right)` lines, domain 0 to 1 |
 | Python | `("#rrggbb", x, y)` tuples, `linspace(a, b, …)` domain |
